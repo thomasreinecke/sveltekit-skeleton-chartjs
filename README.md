@@ -1,38 +1,25 @@
-# create-svelte
+# SVELTE-SKELETON-BOILERPLATE-STEP1
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Boilerplate for Svelte + SvelteKit + Skeleton + TailWindCSS, demonstrating User Registration and Authentication- (via Google OAuth and Magic Link), Database-, and Storage capabilities with Supabase and Vercel  
 
-## Creating a project
+Source code for medium article [Svelte & SkeletonJS Web App boilerplate on Vercel with Supabase](https://towardsdatascience.com/svelte-skeletonjs-web-app-boilerplate-on-vercel-with-supabase-8173f7356ce1) - describing step-by-step how to create this boilerplate.
 
-If you're seeing this, you've probably already done this step. Congrats!
+![image](https://github.com/thomasreinecke/svelte-skeleton-boilerplate-step1/assets/35994116/89dad03f-8224-4188-a671-4fb56fab75f4)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Demo: https://svelte-skeleton-boilerplate-step1.vercel.app
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Local setup
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Clone the project > install the dependencies > start it
 
 ```bash
-npm run dev
+> cd svelte-skeleton-boilerplate-step1
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# with yarn
+> yarn
+> yarn dev --open
+
+# with npm
+> npm install
+> npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
