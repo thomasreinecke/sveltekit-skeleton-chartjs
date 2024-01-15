@@ -23,5 +23,8 @@
 </style>
 
 <section class="lead-space">
-  <h1 class="heading">demonstrating Web app Routing, User Registration and Authentication via Google OAuth on Supabase & Vercel</h1>
+  <h1 class="heading">
+    demonstrating Web app Routing, User Registration and 
+    Authentication via Google OAuth on Supabase & Vercel
+  </h1>
 </section>
