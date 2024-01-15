@@ -3,7 +3,7 @@
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
-    height: 3.75rem;
+    height: 12rem;
   }
   .heading {
     padding:16px;
@@ -23,5 +23,5 @@
 </style>
 
 <section class="lead-space">
-  <h1 class="heading">coming soon, stay tuned...</h1>
+  <h1 class="heading">demonstrating Web app Routing, User Registration and Authentication via Google OAuth on Supabase & Vercel</h1>
 </section>
