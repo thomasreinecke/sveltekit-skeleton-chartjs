@@ -3,7 +3,7 @@
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
-    height: 12rem;
+    height: 3.75rem;
   }
   .heading {
     padding:16px;
@@ -24,7 +24,6 @@
 
 <section class="lead-space">
   <h1 class="heading">
-    demonstrating Web app Routing, User Registration and 
-    Authentication via Google OAuth on Supabase & Vercel
+    Routing and Charting with SvelteKit + Skeleton and ChartJS
   </h1>
 </section>

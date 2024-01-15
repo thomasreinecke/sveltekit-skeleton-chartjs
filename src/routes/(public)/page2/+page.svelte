@@ -1,9 +1,7 @@
 <script lang="ts">
-  import LeadSpace from "$lib/components/LeadSpace.svelte";
 </script>
 
 <svelte:head></svelte:head>
-<LeadSpace />
 
 <main class="main">
   <p>
