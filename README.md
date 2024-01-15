@@ -1,19 +1,19 @@
-# SVELTE-SKELETON-BOILERPLATE
+# SVELTE-SKELETON-CHARTJS
 
-Boilerplate for Svelte + SvelteKit + Skeleton + TailWindCSS, demonstrating User Registration and Authentication- (via Google OAuth and Magic Link), Database-, and Storage capabilities with Supabase and Vercel  
+Boilerplate for Svelte + SvelteKit + Skeleton + TailWindCSS + ChartJs, demonstrating web app routing, charting and data visualization via ChartJs  
 
-Source code for medium article [Svelte & SkeletonJS Web App boilerplate on Vercel with Supabase](https://towardsdatascience.com/svelte-skeletonjs-web-app-boilerplate-on-vercel-with-supabase-8173f7356ce1) - describing step-by-step how to create this boilerplate.
+Source code for medium article [SvelteKit + Skeleton + ChartJs - a boilerplate for advanced charting and data visualization](https://towardsdatascience.com/svelte-skeletonjs-web-app-boilerplate-on-vercel-with-supabase-8173f7356ce1) - describing step-by-step how to create this boilerplate.
 
-![image](https://github.com/thomasreinecke/svelte-skeleton-boilerplate/assets/35994116/89dad03f-8224-4188-a671-4fb56fab75f4)
+![image](https://github.com/thomasreinecke/sveltekit-skeleton-chartjs/assets/35994116/ca72b27d-6faa-4a79-b988-db21fc18072f)
 
-Demo: https://svelte-skeleton-boilerplate.vercel.app
+Demo: https://sveltekit-skeleton-chartjs.vercel.app
 
 ## Local setup
 
 Clone the project > install the dependencies > start it
 
 ```bash
-> cd svelte-skeleton-boilerplate
+> cd sveltekit-skeleton-chartjs
 
 # with yarn
 > yarn
