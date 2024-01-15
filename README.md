@@ -6,14 +6,14 @@ Source code for medium article [Svelte & SkeletonJS Web App boilerplate on Verce
 
 ![image](https://github.com/thomasreinecke/svelte-skeleton-boilerplate/assets/35994116/89dad03f-8224-4188-a671-4fb56fab75f4)
 
-Demo: https://svelte-skeleton-boilerplate-step1.vercel.app
+Demo: https://svelte-skeleton-boilerplate.vercel.app
 
 ## Local setup
 
 Clone the project > install the dependencies > start it
 
 ```bash
-> cd svelte-skeleton-boilerplate-step1
+> cd svelte-skeleton-boilerplate
 
 # with yarn
 > yarn
