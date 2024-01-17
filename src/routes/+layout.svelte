@@ -4,11 +4,8 @@
 	import LeadSpace from '$lib//components/LeadSpace.svelte';
 
 	import '@fortawesome/fontawesome-free/css/all.css';
-	import { AppShell, AppBar, Modal, LightSwitch } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, LightSwitch } from '@skeletonlabs/skeleton';
 	import { goto } from '$app/navigation';
-  import { page } from '$app/stores';
-	import { dev } from '$app/environment';
-
 
 	function gotoHome() {
 		goto('/');
@@ -25,7 +22,11 @@
 				<button class="logo-button" on:click={gotoHome}>
 						<Icon icon="fa6-solid:explosion" />
 				</button>
-				<a href='/'><strong class="text-xl uppercase">SvelteKit + Skeleton + ChartJs Demo</strong></a>
+				<a href='/'>
+					<strong class="text-xl uppercase">
+						SvelteKit + Skeleton + ChartJs Demo
+					</strong>
+				</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<LightSwitch />

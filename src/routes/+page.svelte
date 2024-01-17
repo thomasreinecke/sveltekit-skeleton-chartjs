@@ -1,8 +1,5 @@
 <script lang="ts">
-  import { getImageLink } from "$lib/images";
-  import { Avatar, CodeBlock } from "@skeletonlabs/skeleton";
-  import Chart1 from '$lib/components/Chart1.svelte';
-  import Chart2 from '$lib//components/Chart2.svelte';
+  import Chart from '$lib//components/Chart.svelte';
 </script>
 
 <svelte:head></svelte:head>
@@ -12,7 +9,7 @@
     <div class="w-full text-token grid grid-cols-1">
       <a class="card card-hover overflow-hidden" href="/page1">
         <header>
-          <Chart1 />
+          <Chart type="Bar" />
         </header>
         <div class="p-4 space-y-4">
           <article>
@@ -31,7 +28,7 @@
     <div class="w-full text-token grid grid-cols-1">
       <a class="card bg-initial card-hover overflow-hidden" href="/page2">
         <header>
-          <Chart2 />
+          <Chart type="Scatter" />
         </header>
         <div class="p-4 space-y-4">
           <article>
